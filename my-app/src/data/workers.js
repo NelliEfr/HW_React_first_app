@@ -1,0 +1,38 @@
+export const workers = [
+  {
+    id: 1,
+    firstname: "Rasma",
+    lastname: "Apsolone",
+    age: 31,
+    foto: "/media/2-image.jpg",
+    salary: 1200,
+    in_office: true,
+  },
+  {
+    id: 2,
+    firstname: "Peteris",
+    lastname: "Zarins",
+    age: 57,
+    foto: `media/4-image.jpg`,
+    salary: 2700,
+    in_office: false,
+  },
+  {
+    id: 3,
+    firstname: "John",
+    lastname: "Scatmann",
+    age: 35,
+    foto: "../10-image.jpg",
+    salary: 780,
+    in_office: true,
+  },
+  {
+    id: 4,
+    firstname: "Gerta",
+    lastname: "Kruminja",
+    age: 42,
+    foto: "data/12-image.jpg",
+    salary: 1600,
+    in_office: false,
+  },
+];
