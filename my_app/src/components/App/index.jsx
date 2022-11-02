@@ -1,5 +1,4 @@
-import Worker from "../Worker";
-import { workers } from '../../data/workers'
+import Cards from "../Cards";
 
 export default function App() {
 
@@ -7,12 +6,7 @@ export default function App() {
 
   return (
     <div>
-
-      {
-        workers
-        // .filter(el => el.in_office)
-        .map(el => <Worker {...el} key={el.id} />)
-      }
+      <Cards />
 
     </div>
   );

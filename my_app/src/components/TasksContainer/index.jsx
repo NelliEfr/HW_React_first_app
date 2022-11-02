@@ -6,7 +6,9 @@ export default function TasksContainer( { tasks }) {
     <div>Tasks:
         {
             tasks.length !== 0 // tasks [0]
-            ? tasks.map(el => <Task key={el.id} {...el} />)
+            ? tasks
+            .sort((a, b) => a.done - b.done)
+            .map(el => <Task key={el.id} {...el} />)
             : <span> 'No tasks'</span> 
         }
     </div>

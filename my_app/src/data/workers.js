@@ -10,7 +10,7 @@ export const workers = [
           {
               id: 1,
               task: 'coding',
-              done: true
+              done: false
           },
           {
             id: 2,
