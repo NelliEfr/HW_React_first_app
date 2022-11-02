@@ -7,7 +7,9 @@ export default function TaskContainer({tasks}) {
         Tasks:
         {
             tasks.length !==0
-            ? tasks.map(el => <Task key={el.id} {...el}/>)
+            ? tasks
+            .sort((a, b) => a.done - b.done)
+            .map(el => <Task key={el.id} {...el}/>)
             : <p>No tasks</p>
         }
         

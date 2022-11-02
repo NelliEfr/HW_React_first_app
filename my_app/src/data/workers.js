@@ -10,7 +10,7 @@ export const workers = [
             {
                 id: 1,
                 task: 'Pick up document',
-                done: true
+                done: false
             },
 
             {
@@ -23,7 +23,7 @@ export const workers = [
             {
                 id: 3,
                 task: 'Go to workplace',
-                done: true
+                done: false
             },
         
         ]
